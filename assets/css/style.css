@@ -298,7 +298,7 @@ footer p {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 427px) {
     .container {
         width: 375px;
     }
@@ -329,7 +329,7 @@ footer p {
     }
 }
 
-@media (max-width: 325px) {
+@media (max-width: 375px) {
     .container {
         width: 325px;
     }
