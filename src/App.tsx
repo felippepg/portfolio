@@ -1,12 +1,10 @@
-import { useTranslation } from 'react-i18next';
-
+import Wrapper from './container/Wrapper';
+import Home from './feature/Home';
 function App() {
-  const { t } = useTranslation('home');
   return (
-    <>
-      <h1>{t('occupation')}</h1>
-      <p>{t('presentation')}</p>
-    </>
+    <Wrapper>
+      <Home />
+    </Wrapper>
   );
 }
 
