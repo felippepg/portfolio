@@ -17,7 +17,7 @@ const Navbar = ({ className }: any) => {
         <AnimatePresence>
           {isOpen && (
             <motion.div
-              className="bg-gray-800 fixed top-0 left-0 h-screen w-3/4"
+              className="bg-gray-800 fixed top-0 left-0 h-screen w-3/4 z-10"
               initial={{ x: '100%' }}
               animate={{ x: 0 }}
               exit={{ x: '100%' }}

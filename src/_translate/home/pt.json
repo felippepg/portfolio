@@ -3,5 +3,6 @@
   "presentation": "Meu nome é Felippe",
   "home": "Inicio",
   "projects": "Meus projetos",
-  "about": "Sobre mim"
+  "about": "Sobre mim",
+  "description": "Sou um desenvolvedor com cerca de 3 anos de experiência, especializado em Java, Spring Boot e React Js, possuindo um histórico em criar soluções escaláveis e responsivas para centenas de usuários. Durante minha jornada, tenho trabalhado para aprimorar o design de software, manter a qualidade do código e implementar testes eficazes. Para isso, estou sempre me atualizando por meio de cursos e imersões."
 }

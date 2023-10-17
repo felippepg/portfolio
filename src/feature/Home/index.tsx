@@ -1,3 +1,5 @@
+import { motion, useAnimation } from 'framer-motion';
+import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import useTypeWriter from 'react-typewriter-hook';
 import Navbar from './components/Navbar';
@@ -6,6 +8,26 @@ import ToggleSwitch from './components/ToggleSwitch';
 function Home() {
   const { t } = useTranslation('home');
   const occupation = useTypeWriter(t('occupation'));
+  const [isMounted, setIsMounted] = useState(false);
+  const controlsImage = useAnimation();
+  const controlsText = useAnimation();
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (isMounted) {
+      controlsImage.start({
+        y: 0,
+        transition: { duration: 2, ease: 'easeOut' },
+      });
+      controlsText.start({
+        x: 0,
+        transition: { duration: 2, ease: 'easeOut' },
+      });
+    }
+  }, [isMounted, controlsImage, controlsText]);
 
   return (
     <div className="w-full">
@@ -16,6 +38,17 @@ function Home() {
       <h1 className="text-orange-thema text-center roboto-serif text-3xl laptop:text-5xl">
         {occupation}
       </h1>
+      <main className="flex flex-col laptop:flex-row laptop:justify-between justify-center items-center mt-5 laptop:mt-10">
+        <motion.div initial={{ y: '-100vh' }} animate={controlsImage}>
+          <img src="/img/me.svg" alt="Felippe Pires" className="max-w-none" />
+        </motion.div>
+
+        <motion.div initial={{ x: '-100vw' }} animate={controlsText}>
+          <p className="text-orange-thema text-center leading-6 text-sm mt-3 laptop:text-xl font-thin desktop:max-w-2xl">
+            {t('description')}
+          </p>
+        </motion.div>
+      </main>
     </div>
   );
 }
