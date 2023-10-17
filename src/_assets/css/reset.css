@@ -108,6 +108,11 @@ section {
 body {
   line-height: 1;
   background-color: black;
+  font-family: 'Roboto', sans-serif;
+
+  .roboto-serif {
+    font-family: 'Roboto Serif', serif; /* Defina 'Roboto Serif' para a classe roboto-serif */
+  }
 }
 ol,
 ul {

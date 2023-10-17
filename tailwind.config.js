@@ -2,6 +2,9 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    fontSize: {
+      xxsm: ['0.5em'],
+    },
     extend: {
       screens: {
         sm_device: '481px',
@@ -9,6 +12,15 @@ module.exports = {
         laptop: '992px',
         desktop: '1200px',
         large: '1920px',
+      },
+      width: {
+        340: '340px',
+        450: '450px',
+        700: '700px',
+        1000: '1000px',
+      },
+      colors: {
+        'orange-thema': '#FF9900',
       },
     },
   },
