@@ -1,6 +1,7 @@
 import { Switch } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const IOSSwitch = styled(Switch)(({ theme }: any) => ({
   width: 52,
@@ -48,15 +49,22 @@ const IOSSwitch = styled(Switch)(({ theme }: any) => ({
   },
 }));
 
-const ToggleSwitch = () => {
+const ToggleSwitch = ({ className }: any) => {
   const [checked, setChecked] = useState(false);
+  const { i18n } = useTranslation();
+
+  useEffect(() => {
+    i18n.changeLanguage(checked ? 'en' : 'pt');
+  }, [checked, i18n]);
 
   const handleChange = () => {
     setChecked((prev) => !prev);
   };
 
   return (
-    <div className="flex flex-col items-center">
+    <div
+      className={`flex flex-col items-center laptop:items-center w-min ${className}`}
+    >
       <span className="text-white font-bold text-xxsm mb-1">BR-EN</span>
       <IOSSwitch
         sx={{
