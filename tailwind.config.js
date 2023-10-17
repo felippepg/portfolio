@@ -28,6 +28,7 @@ module.exports = {
       },
       colors: {
         'orange-thema': '#FF9900',
+        'orange-thema-light': '#E1A54B',
       },
     },
   },
