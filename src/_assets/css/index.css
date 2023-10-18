@@ -3,5 +3,22 @@
 @tailwind utilities;
 
 .text-transition {
-  transition: font-size 0.3s ease; /* Adicione uma transição à propriedade font-size */
+  transition: font-size 0.3s ease;
+}
+
+.tech-list {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+  width: 50%;
+}
+
+@media (max-width: 715px) {
+  .tech-list {
+    width: auto;
+  }
 }

@@ -2,7 +2,7 @@ import SocialLink from './Navbar/SocialLink';
 
 const TechLists = () => {
   return (
-    <ul className="bg-orange-thema-light p-0 flex justify-around mt-16 laptop:mt-40 laptop:w-3/4 mx-auto">
+    <ul className="bg-orange-thema-light p-1 flex justify-around tech-list mx-auto">
       <span>
         <SocialLink
           url="https://nextjs.org/"
