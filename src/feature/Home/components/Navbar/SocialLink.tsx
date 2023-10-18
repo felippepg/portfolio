@@ -1,10 +1,6 @@
-interface SocialLinkProps {
-  url: string;
-  iconSrc: string;
-  altText: string;
-}
+import { ISocialLinkProps } from '../../../../types/SocialLinkProps';
 
-const SocialLink = ({ url, iconSrc, altText }: SocialLinkProps) => {
+const SocialLink = ({ url, iconSrc, altText }: ISocialLinkProps) => {
   return (
     <li className="mr-4 mb-2 list-none">
       <a href={url} target="_blank" rel="noopener noreferrer">

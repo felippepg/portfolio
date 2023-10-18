@@ -2,6 +2,7 @@ import { motion, useAnimation } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import useTypeWriter from 'react-typewriter-hook';
+import Title from '../../components/Title';
 import Navbar from './components/Navbar';
 import TechLists from './components/TechLists';
 import ToggleSwitch from './components/ToggleSwitch';
@@ -36,9 +37,7 @@ export function Home() {
         <ToggleSwitch className="laptop:order-last" />
         <Navbar className="laptop:order-first" />
       </header>
-      <h1 className="text-orange-thema text-center roboto-serif text-3xl laptop:text-5xl">
-        {occupation}
-      </h1>
+      <Title>{occupation}</Title>
       <main className="flex flex-col laptop:flex-row laptop:justify-between justify-center items-center mt-5 laptop:mt-10">
         <motion.div initial={{ y: '-100vh' }} animate={controlsImage}>
           <img src="/img/me.svg" alt="Felippe Pires" className="max-w-none" />
