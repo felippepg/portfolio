@@ -1,4 +1,6 @@
 {
   "title": "Projects",
-  "subtitle": "Some of the various study projects I work on in my free time"
+  "subtitle": "Some of the various study projects I work on in my free time",
+  "sorteador": "Welcome to the Friend Picker project! This is an ongoing project as part of a course focusing on automated testing for React applications. The goal of this project is to create a simple application that allows users to randomly draw friends' names, making event organization and gift-giving more enjoyable.",
+  "repo": "Welcome to the RepoRadar project! This project was developed with the purpose of retrieving information about GitHub developers through its official API."
 }

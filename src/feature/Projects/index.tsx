@@ -1,10 +1,12 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 import ScrollReveal from 'scrollreveal';
 import Title from '../../components/Title';
 
 const Projects = () => {
   const { t } = useTranslation('projects');
+  const navigate = useNavigate();
   useEffect(() => {
     const sr = ScrollReveal();
 
@@ -34,6 +36,7 @@ const Projects = () => {
               width="auto"
               src="/img/repo-radar.svg"
               alt="Imagem do projeto Repo Radar"
+              onClick={() => navigate('/project/1')}
             />
           </div>
           <div className="w-full laptop:w-80 desktop:w-96 p-1 h-52 mt-5">
@@ -46,6 +49,7 @@ const Projects = () => {
               width="auto"
               src="/img/sorteador.svg"
               alt="Imagem do projeto Sorteador"
+              onClick={() => navigate('/project/2')}
             />
           </div>
         </div>
