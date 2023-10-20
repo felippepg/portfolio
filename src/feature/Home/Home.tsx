@@ -32,17 +32,16 @@ export function Home() {
   }, [isMounted, controlsImage, controlsText]);
 
   return (
-    <div className="w-full">
+    <div className="page-wrapper">
       <header className="mt-5 flex justify-between laptop:flex-col laptop:justify-start w-full">
         <ToggleSwitch className="laptop:order-last" />
         <Navbar className="laptop:order-first" />
       </header>
       <Title>{occupation}</Title>
-      <main className="flex flex-col laptop:flex-row laptop:justify-between justify-center items-center mt-5 laptop:mt-10">
+      <main className="content-wrapper flex flex-col laptop:flex-row laptop:justify-between justify-center items-center mt-5 laptop:mt-10">
         <motion.div initial={{ y: '-100vh' }} animate={controlsImage}>
           <img src="/img/me.svg" alt="Felippe Pires" className="max-w-none" />
         </motion.div>
-
         <motion.div initial={{ x: '-100vw' }} animate={controlsText}>
           <p className="text-orange-thema text-center leading-6 text-sm mt-3 laptop:text-xl font-thin desktop:max-w-2xl">
             {t('description')}

@@ -22,7 +22,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section className="mt-80 laptop:mt-96 element">
+    <section className="mt-5 element">
       <Title>{t('title')}</Title>
       <h3 className="text-orange-thema text-center mt-10">{t('subtitle')}</h3>
 
@@ -39,7 +39,7 @@ const Projects = () => {
               onClick={() => navigate('/project/1')}
             />
           </div>
-          <div className="w-full laptop:w-80 desktop:w-96 p-1 h-52 mb-5">
+          <div className="w-full laptop:w-80 desktop:w-96 p-1 h-52 mt-5">
             <h1 className="text-orange-thema text-center pb-5">Repo Radar</h1>
 
             <img
@@ -66,7 +66,7 @@ const Projects = () => {
               onClick={() => navigate('/project/3')}
             />
           </div>
-          <div className="w-full laptop:w-80 desktop:w-96 p-1 h-52 mt-5">
+          <div className="w-full laptop:w-80 desktop:w-96 p-1 h-52 mt-9">
             <h1 className="text-orange-thema pb-5 text-center">Piresfood</h1>
 
             <img
