@@ -39,16 +39,14 @@ const Projects = () => {
               onClick={() => navigate('/project/1')}
             />
           </div>
-          <div className="w-full laptop:w-80 desktop:w-96 p-1 h-52 mt-5">
-            <h1 className="text-orange-thema pb-5 text-center">
-              Sorteador de Amigo Secreto
-            </h1>
+          <div className="w-full laptop:w-80 desktop:w-96 p-1 h-52 mb-5">
+            <h1 className="text-orange-thema text-center pb-5">Repo Radar</h1>
 
             <img
               className="w-full h-full object-cover"
               width="auto"
               src="/img/sorteador.svg"
-              alt="Imagem do projeto Sorteador"
+              alt="Imagem do projeto Sorteador de amigos"
               onClick={() => navigate('/project/2')}
             />
           </div>
@@ -65,9 +63,10 @@ const Projects = () => {
               width="auto"
               src="/img/vol-med.svg"
               alt="Imagem do projeto Voll Med API"
+              onClick={() => navigate('/project/3')}
             />
           </div>
-          <div className="w-full laptop:w-80 desktop:w-96 p-1 h-52 mt-10">
+          <div className="w-full laptop:w-80 desktop:w-96 p-1 h-52 mt-5">
             <h1 className="text-orange-thema pb-5 text-center">Piresfood</h1>
 
             <img
@@ -75,6 +74,7 @@ const Projects = () => {
               width="auto"
               src="/img/piresfood.svg"
               alt="Imagem do projeto Piresfood"
+              onClick={() => navigate('/project/4')}
             />
           </div>
         </div>

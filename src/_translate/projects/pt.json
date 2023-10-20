@@ -2,5 +2,7 @@
   "title": "Projetos",
   "subtitle": "Alguns dos projetos de estudo quando estou no meu tempo livre",
   "sorteador": "Bem-vindo ao projeto Sorteador de Amigos! Este é um projeto em andamento como parte de um curso com foco em testes automatizados de aplicações React. O objetivo deste projeto é criar uma aplicação simples que permita aos usuários sortear nomes de amigos de forma aleatória, tornando a organização de eventos e presentes mais divertida.",
-  "repo": "Bem-vindo ao projeto RepoRadar! Este projeto foi desenvolvido com o propósito de buscar informações de desenvolvedores do GitHub por meio da sua API oficial."
+  "repo": "Bem-vindo ao projeto RepoRadar! Este projeto foi desenvolvido com o propósito de buscar informações de desenvolvedores do GitHub por meio da sua API oficial.",
+  "voll": "O projeto se trata de uma API Rest desenvolvida para um sistema hospitalar feito no curso da Alura sobre Spring Boot",
+  "piresfood": "O sistema foi desenvolvido como parte de um curso da Alura, onde busco aprimorar meus conhecimentos sobre Microserviços."
 }
