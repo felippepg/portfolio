@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-scroll';
 import SocialLink from './SocialLink';
 
 const Options = () => {
@@ -8,13 +9,19 @@ const Options = () => {
     <div className="flex flex-col laptop:flex-row laptop:justify-between laptop:w-full items-center justify-center h-full">
       <ul className="flex flex-col laptop:flex-row items-center justify-center h-full text-orange-thema text-2xl cursor-pointer">
         <li className="my-4 laptop:mr-2 hover:text-3xl text-transition">
-          {t('home')}
+          <Link to="home" smooth={true} duration={500}>
+            {t('home')}
+          </Link>
         </li>
         <li className="my-4 laptop:mr-2 hover:text-3xl text-transition">
-          {t('projects')}
+          <Link to="project" smooth={true} duration={1000}>
+            {t('projects')}
+          </Link>
         </li>
         <li className="my-4 laptop:mr-2 hover:text-3xl text-transition">
-          {t('about')}
+          <Link to="about" smooth={true} duration={1000}>
+            {t('about')}
+          </Link>
         </li>
       </ul>
       <ul className="flex flex-col laptop:flex-row items-center justify-center h-full">

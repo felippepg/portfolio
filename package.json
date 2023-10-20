@@ -24,6 +24,7 @@
     "react-i18next": "^13.3.0",
     "react-router-dom": "^6.17.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.9.0",
     "react-slick": "^0.29.0",
     "react-typewriter-hook": "^1.0.2",
     "scrollreveal": "^4.0.9",
@@ -56,6 +57,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-scroll": "^1.8.9",
     "@types/react-slick": "^0.23.11",
     "@types/scrollreveal": "^0.0.10",
     "@types/slick-carousel": "^1.6.39",
