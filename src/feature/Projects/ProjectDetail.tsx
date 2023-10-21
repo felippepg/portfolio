@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
 import Slider from 'react-slick';
 import Title from '../../components/Title';
@@ -8,6 +9,7 @@ const ProjectDetail = () => {
   const { id } = useParams();
   const { photos } = usePhotos();
   const navigate = useNavigate();
+  const { t } = useTranslation('projects');
 
   const settings = {
     dots: true,
@@ -48,7 +50,7 @@ const ProjectDetail = () => {
           className="bg-orange-thema text-white p-3 rounded-sm hover:bg-orange-500 text-center w-full laptop:w-24"
           onClick={() => navigate('/')}
         >
-          Voltar
+          {t('back')}
         </button>
         <a
           className="bg-orange-thema text-white p-3 rounded-sm hover:bg-orange-500 text-center w-full laptop:w-24 mt-2"
@@ -57,7 +59,7 @@ const ProjectDetail = () => {
               ?.url || ''
           }
         >
-          Conhecer
+          {t('visit')}
         </a>
       </div>
     </Wrapper>

@@ -4,5 +4,7 @@
   "sorteador": "Welcome to the Friend Picker project! This is an ongoing project as part of a course focusing on automated testing for React applications. The goal of this project is to create a simple application that allows users to randomly draw friends' names, making event organization and gift-giving more enjoyable.",
   "repo": "Welcome to the RepoRadar project! This project was developed with the purpose of retrieving information about GitHub developers through its official API.",
   "voll": "The project is a Rest API developed for a hospital system as part of the Alura course on Spring Boot.",
-  "piresfood": "The system was developed as part of an Alura course where I aim to enhance my knowledge of Microservices."
+  "piresfood": "The system was developed as part of an Alura course where I aim to enhance my knowledge of Microservices.",
+  "back": "Back",
+  "visit": "Visit"
 }

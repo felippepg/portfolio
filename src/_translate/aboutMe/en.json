@@ -1,0 +1,17 @@
+{
+  "aboutMeTitle": "About Me",
+  "trajectoryTitle": "Trajectory",
+  "skillsTitle": "Skills",
+  "aboutMe": "My journey in the technology field began as a support analyst. After several years in this profession and pursuing my degree in Systems Analyst, I became interested in software development. I transitioned into the software development area, taking courses to enhance my skills as a developer (Hard Skills) and improve my interpersonal skills (Soft Skills). In my free time, I enjoy reading, watching movies, studying astronomy, playing video games, and drawing.",
+
+  "analystJobTitle": "Martucci Melillo — Support Analyst October 2018 - February 2021",
+  "analystJobDescription": "My responsibilities included providing direct technical support to users, diagnosing and resolving a variety of issues on computers.",
+
+  "juniorJobTitle": "Martucci Melillo — Junior Software Developer March 2021 - August 2023",
+  "juniorJobDescription": "I started by developing some utility software to support operations, initially an electronic agenda in Next.js, and later a complete Help Desk system used to manage internal tickets.",
+  "juniorJobSkills": "Technologies: React, Next.js, Java, MySQL",
+
+  "midJobTitle": "Martucci Melillo — Senior Software Developer Since September 2023 – Present",
+  "midJobDescription": "As a mid level software developer, I have taken on responsibilities such as maintaining a process control system in Delphi 7 and Firebird. Additionally, I continue to maintain previously developed software.",
+  "midJobSkills": "Technologies: Delphi 7, Firebird, Tailwind CSS"
+}
