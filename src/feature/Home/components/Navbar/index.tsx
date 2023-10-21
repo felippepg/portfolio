@@ -5,6 +5,10 @@ import Options from './Options';
 
 const Navbar = ({ className }: any) => {
   const [isOpen, setOpen] = useState(false);
+  const closeMenu = () => {
+    setOpen(false);
+  };
+
   return (
     <div className={className}>
       <div className="laptop:hidden">
@@ -23,7 +27,7 @@ const Navbar = ({ className }: any) => {
               exit={{ x: '100%' }}
               transition={{ duration: 0.5 }}
             >
-              <Options />
+              <Options onClose={closeMenu} />
             </motion.div>
           )}
         </AnimatePresence>
