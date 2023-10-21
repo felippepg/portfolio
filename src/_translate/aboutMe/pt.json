@@ -1,17 +1,17 @@
 {
   "aboutMeTitle": "Sobre Mim",
-  "trajectoryTitle": "Trajetoria",
+  "trajectoryTitle": "Trajetória",
   "skillsTitle": "Habilidades",
 
-  "aboutMe": "Meu inicio na área da tecnologia se deu como analista de suporte, após alguns anos atuando na profissão e por conta da faculdade de Analista de Sistemas acabei me interessando  sobre a área de desenvolvimento de software.Após começar a atuar como programados e finalizar minha faculdade também fui realizando alguns cursos para melhorar minha proficiencia como desenvolvedor (Hard Skills) e também aprimorando minhas habilidades interpessoais (Soft Skills).No meu tempo livre também gosto de ler, assistir filmes, estudar astronomia, jogar vídeo games e desenhar.",
+  "aboutMe": "Meu inicio na área da tecnologia se deu como analista de suporte, após alguns anos atuando na profissão e por conta da faculdade de Analista de Sistemas acabei me interessando  sobre a área de desenvolvimento de software.Após começar a atuar como programador e finalizar minha faculdade também fui realizando alguns cursos para melhorar minha proficiencia como desenvolvedor (Hard Skills) e também aprimorando minhas habilidades interpessoais (Soft Skills).No meu tempo livre também gosto de ler, assistir filmes, estudar astronomia, jogar vídeo games e desenhar.",
   "analystJobTitle": "Martucci Melillo — Analista de suporte Outubro 2018 - Fevereiro 2021",
   "analystJobDescription": " Minhas responsábilidades incluiam oferecer suporte técnico direto aos usuários, diagnosticando e resolvendo uma variedade de problemas em computadores.",
 
   "juniorJobTitle": "Martucci Melillo — Desenvolvedor de Software Junior Março 2021 - Agosto 2023",
-  "juniorJobDescription": "Meu inicio se deu desenvolvendo alguns softwares utilitários para se dar apoio a operação, inicialmente uma agenda eletrônica em Next Js e posteriormente um sistema completo de Help Desk utilizando para gerenciar os chamados internos",
+  "juniorJobDescription": "Meu inicio se deu desenvolvendo alguns softwares utilitários para se dar apoio a operação, inicialmente uma agenda eletrônica em Next Js e posteriormente um sistema completo de Help Desk utilizado para gerenciar os chamados internos",
   "juniorJobSkills": "Tecnologias: React, Next Js, Java, Mysql",
 
   "midJobTitle": "Martucci Melillo — Desenvolvedor de Software Pleno Desde Setembro 2023 – Atualmente",
-  "midJobDescription": "Como desenvolvedor de software pleno assumi algumas responsabilidades como manutenção de um sistema de controle de processos em Delphi 7 e Firebird, alem de continuar com a manutenção dos softwares previamente desenvolvimentos",
+  "midJobDescription": "Como desenvolvedor de software pleno assumi algumas responsabilidades como manutenção de um sistema de controle de processos judiciais em Delphi 7 e Firebird, alem de continuar com a manutenção dos softwares previamente desenvolvidos. Também participei do desenvolvimento de um pequeno módulo web para esse sistema legado",
   "midJobSkills": "Tecnologias: Delphi 7, Firbird, Tailwindcss"
 }

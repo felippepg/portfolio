@@ -52,6 +52,7 @@ const IOSSwitch = styled(Switch)(({ theme }: any) => ({
 const ToggleSwitch = ({ className }: any) => {
   const storage = localStorage.getItem('language');
   const [checked, setChecked] = useState(storage ? JSON.parse(storage) : false);
+
   const { i18n } = useTranslation();
 
   useEffect(() => {
