@@ -50,15 +50,23 @@ const IOSSwitch = styled(Switch)(({ theme }: any) => ({
 }));
 
 const ToggleSwitch = ({ className }: any) => {
-  const [checked, setChecked] = useState(false);
+  const storage = localStorage.getItem('language');
+  const [checked, setChecked] = useState(storage ? JSON.parse(storage) : false);
   const { i18n } = useTranslation();
 
   useEffect(() => {
-    i18n.changeLanguage(checked ? 'en' : 'pt');
+    if (storage) {
+      i18n.changeLanguage(JSON.parse(storage) ? 'en' : 'pt');
+    } else {
+      i18n.changeLanguage('pt');
+    }
   }, [checked, i18n]);
 
   const handleChange = () => {
-    setChecked((prev) => !prev);
+    setChecked((prev: any) => {
+      localStorage.setItem('language', (!prev).toString());
+      return !prev;
+    });
   };
 
   return (
