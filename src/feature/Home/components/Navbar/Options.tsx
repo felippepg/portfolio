@@ -62,7 +62,7 @@ const Options = ({ onClose }: IOptionProps) => {
         />
         <SocialLink
           iconSrc="/img/email.svg"
-          url="felippepg.goncalves@outlook.com.br"
+          url="mailto:felippepg.goncalves@outlook.com.br"
           altText="Link para enviar email"
         />
       </ul>
