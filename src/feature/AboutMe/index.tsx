@@ -29,7 +29,7 @@ const AboutMe = () => {
             <Title>{t('skillsTitle')}</Title>
             <div className="flex flex-col items-center laptop:items-start laptop:justify-between laptop:flex-row mt-5 roboto-serif">
               <div className="mb-5 w-28">
-                <h3 className="text-2xl font-bold">Fron End</h3>
+                <h3 className="text-2xl font-bold">Front End</h3>
                 <ul>
                   <li>React</li>
                   <li>Next</li>
