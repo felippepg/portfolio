@@ -31,12 +31,14 @@ const Projects = () => {
         <div className="w-full mx-auto flex flex-col items-center text-orange-thema mt-5">
           <div className="w-full flex flex-col laptop:flex-row laptop:justify-between mb-4 p-0">
             <div className="w-full laptop:w-80 desktop:w-96 p-1 h-52 mb-5">
-              <h1 className="text-orange-thema text-center pb-5">Repo Radar</h1>
+              <h1 className="text-orange-thema text-center pb-5">
+                Auth Service
+              </h1>
 
               <img
                 className="w-full h-full object-cover cursor-pointer"
                 width="auto"
-                src="/img/repo-radar.svg"
+                src="/img/auth-service.svg"
                 alt="Imagem do projeto Repo Radar"
                 onClick={() => navigate('/project/1')}
               />

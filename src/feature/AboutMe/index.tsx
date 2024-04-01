@@ -29,18 +29,6 @@ const AboutMe = () => {
             <Title>{t('skillsTitle')}</Title>
             <div className="flex flex-col items-center laptop:items-start laptop:justify-between laptop:flex-row mt-5 roboto-serif">
               <div className="mb-5 w-28">
-                <h3 className="text-2xl font-bold">Fron End</h3>
-                <ul>
-                  <li>React</li>
-                  <li>Next</li>
-                  <li>Jest</li>
-                  <li>Tailwind CSS</li>
-                  <li>Material UI</li>
-                  <li>Styled Components</li>
-                  <li>Mobile First</li>
-                </ul>
-              </div>
-              <div className="mb-5 w-28">
                 <h3 className="text-2xl font-bold">Back End</h3>
                 <ul>
                   <li>Java</li>
@@ -49,12 +37,25 @@ const AboutMe = () => {
                   <li>Docker</li>
                   <li>Microsserviços</li>
                   <li>JUnit</li>
+                  <li>AWS</li>
+                  <li>Hibernate</li>
+                  <li>Oauth2.0</li>
+                  <li>Node Js</li>
+                </ul>
+              </div>
+              <div className="mb-5 w-28">
+                <h3 className="text-2xl font-bold">Fron End</h3>
+                <ul>
+                  <li>React</li>
+                  <li>Next</li>
+                  <li>Material UI</li>
+                  <li>Styled Components</li>
+                  <li>Jest</li>
                 </ul>
               </div>
               <div className="mb-5 w-28">
                 <h3 className="text-2xl font-bold">Outros</h3>
                 <ul>
-                  <li>UX Design</li>
                   <li>Figma</li>
                 </ul>
               </div>

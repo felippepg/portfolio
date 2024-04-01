@@ -2,7 +2,7 @@
   "title": "Projects",
   "subtitle": "Some of the various study projects I work on in my free time",
   "sorteador": "Welcome to the Sorteador de Amigos project! This project was developed as part of a course focusing on automated testing of React applications. The goal of this project is to create a simple application that allows users to randomly draw friend names, making the organization of events and gifts more enjoyable",
-  "repo": "Welcome to the Repo Radar project! This project was developed with the purpose of retrieving information about GitHub developers through its official API.",
+  "auth": "This project was developed with the educational aim of exploring and deepening knowledge in Spring Security. The application comprises an authentication system that enables user creation and login, along with a protected route requiring authentication. The standout feature of this application is the implementation of a two-factor authentication (2FA) system, utilizing QRCode code generation for verification of created and authenticated users.",
   "voll": "The project is a Rest API developed for a hospital system as part of the Alura course on Spring Boot.",
   "piresfood": "The system was developed as part of an Alura course where I aim to enhance my knowledge of Microservices.",
   "back": "Back",

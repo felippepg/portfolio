@@ -6,15 +6,10 @@ const usePhotos = () => {
   const [photos, setPhotos] = useState([
     {
       id: 1,
-      name: 'Repo Radar',
-      images: [
-        '/img/repo-radar.svg',
-        '/img/repo-1.svg',
-        '/img/repo-2.svg',
-        '/img/repo-3.svg',
-      ],
-      description: t('repo'),
-      url: 'https://github.com/felippepg/repo-radar',
+      name: 'Auth Service',
+      images: ['/img/auth-service.svg', '/img/auth-1.svg', '/img/auth-2.svg'],
+      description: t('auth'),
+      url: 'https://github.com/felippepg/authentication-service',
     },
     {
       id: 2,
