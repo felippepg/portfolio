@@ -8,10 +8,10 @@
   "analystJobDescription": " Minhas responsábilidades incluiam oferecer suporte técnico direto aos usuários, diagnosticando e resolvendo uma variedade de problemas em computadores.",
 
   "juniorJobTitle": "Martucci Melillo — Desenvolvedor de Software Junior Março 2021 - Agosto 2023",
-  "juniorJobDescription": "Meu inicio se deu desenvolvendo alguns softwares utilitários para se dar apoio a operação, inicialmente uma agenda eletrônica em Next Js e posteriormente um sistema completo de Help Desk utilizado para gerenciar os chamados internos",
-  "juniorJobSkills": "Tecnologias: React, Next Js, Java, Mysql",
+  "juniorJobDescription": "Meu início se deu desenvolvendo alguns softwares utilitários para dar suporte à operação. Inicialmente, desenvolvi uma agenda eletrônica em Next Js. Após adquirir mais experiência, passei a atuar no sistema principal da empresa, que é um software de controle de processos jurídicos desenvolvido em Delphi 7 e Firebird. Posteriormente, desenvolvi um sistema completo de Help Desk com Java, utilizado para gerenciar os chamados internos",
+  "juniorJobSkills": "Tecnologias: Delphi 7, Firbird, React Js, Java",
 
   "midJobTitle": "Martucci Melillo — Desenvolvedor de Software Pleno Desde Setembro 2023 – Atualmente",
-  "midJobDescription": "Como desenvolvedor de software pleno assumi algumas responsabilidades como manutenção de um sistema de controle de processos judiciais em Delphi 7 e Firebird, alem de continuar com a manutenção dos softwares previamente desenvolvidos. Também participei do desenvolvimento de um pequeno módulo web para esse sistema legado",
-  "midJobSkills": "Tecnologias: Delphi 7, Firbird, Tailwindcss"
+  "midJobDescription": "Como desenvolvedor de software pleno, assumi diversas responsabilidades, incluindo o desenvolvimento e proposição de novas soluções para a empresa. Uma dessas soluções foi a criação de um módulo web para consulta de processos judiciais. Para isso, desenvolvi uma aplicação utilizando Java 11 e Spring Boot para comunicação com os bancos de dados Firebird e MySQL, implementando autenticação de dois fatores. Além disso, criei um frontend com React.js e Material UI para interfaces visuais. Também fui encarregado do desenvolvimento de um sistema de entrevista condicional para auxiliar nos procedimentos internos da empresa.",
+  "midJobSkills": "Tecnologias: React, Java, Spring Boot, Mysql"
 }

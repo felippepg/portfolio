@@ -8,10 +8,10 @@
   "analystJobDescription": "My responsibilities included providing direct technical support to users, diagnosing and resolving a variety of issues on computers.",
 
   "juniorJobTitle": "Martucci Melillo — Junior Software Developer March 2021 - August 2023",
-  "juniorJobDescription": "I started by developing some utility software to support operations, initially an electronic agenda in Next.js, and later a complete Help Desk system used to manage internal tickets.",
-  "juniorJobSkills": "Technologies: React, Next.js, Java, MySQL",
+  "juniorJobDescription": "My journey began by developing some utility software to support operations. Initially, I created an electronic agenda using Next.js. As I gained more experience, I started working on the company's main system, which is a legal process control software developed in Delphi 7 and Firebird. Later on, I developed a comprehensive Help Desk system using Java, used to manage internal tickets",
+  "juniorJobSkills": "Technologies: Delphi 7, Firbird, React Js, Java",
 
   "midJobTitle": "Martucci Melillo — Software Developer Since September 2023 – Present",
-  "midJobDescription": "As a mid-level software developer, I undertook several responsibilities, including maintaining a judicial process control system in Delphi 7 and Firebird. I also continued the maintenance of previously developed software. Additionally, I contributed to the development of a small web module for this legacy system",
-  "midJobSkills": "Technologies: Delphi 7, Firebird, Tailwind CSS"
+  "midJobDescription": "As a mid level software developer, I have taken on various responsibilities, including the development and proposal of new solutions for the company. One of these solutions was the creation of a web module for judicial process consultation. To achieve this, I developed an application using Java 11 and Spring Boot for communication with Firebird and MySQL databases, implementing two-factor authentication. Additionally, I created a frontend with React.js and Material UI for visual interfaces. I was also tasked with developing a conditional interview system to assist in the company's internal procedures.",
+  "midJobSkills": "Technologies: React, Java, Spring Boot, Mysql"
 }
