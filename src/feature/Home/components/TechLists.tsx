@@ -5,17 +5,25 @@ const TechLists = () => {
     <ul className="bg-orange-thema-light p-1 flex justify-around tech-list mx-auto">
       <span>
         <SocialLink
-          url="https://nextjs.org/"
-          altText="Icone do Next.js"
-          iconSrc="/img/next.svg"
+          url="https://aws.amazon.com/"
+          altText="Icone da AWS"
+          iconSrc="/img/aws.svg"
         />
       </span>
       <span>
         {' '}
         <SocialLink
-          url="https://react.dev/"
-          altText="Icone do React.js"
-          iconSrc="/img/react.svg"
+          url="https://www.java.com/pt-BR/"
+          altText="Icone do Java"
+          iconSrc="/img/java.svg"
+        />
+      </span>
+      <span>
+        {' '}
+        <SocialLink
+          url="https://spring.io/"
+          altText="Icone do Spring"
+          iconSrc="/img/spring.svg"
         />
       </span>
       <span>
@@ -45,17 +53,9 @@ const TechLists = () => {
       <span>
         {' '}
         <SocialLink
-          url="https://www.java.com/pt-BR/"
-          altText="Icone do Java"
-          iconSrc="/img/java.svg"
-        />
-      </span>
-      <span>
-        {' '}
-        <SocialLink
-          url="https://spring.io/"
-          altText="Icone do Spring"
-          iconSrc="/img/spring.svg"
+          url="https://react.dev/"
+          altText="Icone do React.js"
+          iconSrc="/img/react.svg"
         />
       </span>
     </ul>
