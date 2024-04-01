@@ -8,8 +8,8 @@
   "analystJobDescription": "My responsibilities included providing direct technical support to users, diagnosing and resolving a variety of issues on computers.",
 
   "juniorJobTitle": "Martucci Melillo — Junior Software Developer March 2021 - August 2023",
-  "juniorJobDescription": "My journey began by developing some utility software to support operations. Initially, I created an electronic agenda using Next.js. As I gained more experience, I started working on the company's main system, which is a legal process control software developed in Delphi 7 and Firebird. Later on, I developed a comprehensive Help Desk system using Java, used to manage internal tickets",
-  "juniorJobSkills": "Technologies: Delphi 7, Firbird, React Js, Java",
+  "juniorJobDescription": "My journey began by developing some utility software to support operations. Initially, I created an electronic agenda using Next.js. As I gained more experience, I started working on the company's main system, which is a legal process control software developed in Delphi 7 and Firebird. Later on, I developed a comprehensive Help Desk system using Java, used to manage internal tickets.",
+  "juniorJobSkills": "Technologies: Delphi 7, React Js, Java, Firebird",
 
   "midJobTitle": "Martucci Melillo — Software Developer Since September 2023 – Present",
   "midJobDescription": "As a mid level software developer, I have taken on various responsibilities, including the development and proposal of new solutions for the company. One of these solutions was the creation of a web module for judicial process consultation. To achieve this, I developed an application using Java 11 and Spring Boot for communication with Firebird and MySQL databases, implementing two-factor authentication. Additionally, I created a frontend with React.js and Material UI for visual interfaces. I was also tasked with developing a conditional interview system to assist in the company's internal procedures.",
